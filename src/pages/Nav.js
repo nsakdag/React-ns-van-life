@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <header>
       <Link className="site-logo" to="/">
-        #VanLife
+        #Ns Vanlife
       </Link>
       <nav>
         <Link className="" to="/about">
