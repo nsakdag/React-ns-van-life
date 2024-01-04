@@ -15,7 +15,7 @@ export default function HostVanDetail() {
     fetch(`/api/host/vans/${id}`)
       .then((res) => res.json())
       .then((data) => setCurrentVan(data.vans));
-  }, []);
+  }, [id]);
 
   if (!currentVan) {
     return <h1>Loading...</h1>;
@@ -28,7 +28,7 @@ export default function HostVanDetail() {
 
       <div className="host-van-detail-layout-container">
         <div className="host-van-detail">
-          <img src={currentVan.imageUrl} />
+          <img src={currentVan.imageUrl} alt="error" />
           <div className="host-van-detail-info-text">
             <i className={`van-type van-type-${currentVan.type}`}>
               {currentVan.type}
