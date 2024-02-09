@@ -10,12 +10,12 @@ import {
 } from "firebase/firestore/lite";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyApsibI36zIZb5QCnkYlzEGfCVKkGXInyg",
-  authDomain: "nsvans.firebaseapp.com",
-  projectId: "nsvans",
-  storageBucket: "nsvans.appspot.com",
-  messagingSenderId: "495868712371",
-  appId: "1:495868712371:web:e16038a15de70c7e3d67c6",
+  apiKey: "AIzaSyAGmEkfRiGYaW2PKtqULZfGeqtHpOxIFDA",
+  authDomain: "ns-vans.firebaseapp.com",
+  projectId: "ns-vans",
+  storageBucket: "ns-vans.appspot.com",
+  messagingSenderId: "982008555045",
+  appId: "1:982008555045:web:005a93c4a3347a66e341cc"
 };
 
 const app = initializeApp(firebaseConfig);
